@@ -1,0 +1,16 @@
+{
+  "name": "regex-bundle-rust",
+  "collaborators": [
+    "Marcus0086 <marcgupta456@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "regex_bundle_rust_bg.wasm",
+    "regex_bundle_rust.js",
+    "regex_bundle_rust_bg.js",
+    "regex_bundle_rust.d.ts"
+  ],
+  "module": "regex_bundle_rust.js",
+  "types": "regex_bundle_rust.d.ts",
+  "sideEffects": false
+}
