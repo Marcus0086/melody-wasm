@@ -18,3 +18,17 @@ templates and usages of `wasm-pack`.
 [tutorials]: https://rustwasm.github.io/docs/wasm-pack/tutorials/index.html
 [template-docs]: https://rustwasm.github.io/docs/wasm-pack/tutorials/npm-browser-packages/index.html
 
+
+## Usage
+
+Just clone this package and include it in your project
+
+* Be Sure to add required config for your bundler (webpack) by turning the asyncwebassembly to `true`.
+* Now add the package to your package.json
+<pre>
+  "dependencies": {
+    "regex-rust-wasm": "file:./pkg"
+  },
+</pre>
+* Now simply import it like some another package
+* <pre>import * as wasm from 'your-module'</pre>
