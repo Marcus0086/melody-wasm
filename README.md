@@ -25,10 +25,12 @@ Just clone this package and include it in your project
 
 * Be Sure to add required config for your bundler (webpack) by turning the asyncwebassembly to `true`.
 * Now add the package to your package.json
-<pre>
+```js
   "dependencies": {
-    "regex-rust-wasm": "file:./pkg"
+    "regex-wasm": "file:./pkg"
   },
-</pre>
+```
 * Now simply import it like some another package
-* <pre>import * as wasm from 'your-module'</pre>
+```js
+  import * as wasm from 'regex-wasm'
+```
