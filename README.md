@@ -1,12 +1,8 @@
 <div align="center">
 
-  <h1><code>wasm-pack-template</code></h1>
+  <h1><code>Melody-Wasm-Port</code></h1>
 
-  <strong>A template for kick starting a Rust and WebAssembly project using <a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a>.</strong>
-
-  <p>
-    <a href="https://travis-ci.org/rustwasm/wasm-pack-template"><img src="https://img.shields.io/travis/rustwasm/wasm-pack-template.svg?style=flat-square" alt="Build Status" /></a>
-  </p>
+  <strong>A compiler in wasm for web apps using <a href="https://github.com/yoav-lavi/melody">Meldoy</a>.</strong>
 
   <h3>
     <a href="https://rustwasm.github.io/docs/wasm-pack/tutorials/npm-browser-packages/index.html">Tutorial</a>
@@ -19,10 +15,8 @@
 
 ## About
 
-[**📚 Read this template tutorial! 📚**][template-docs]
-
-This template is designed for compiling Rust libraries into WebAssembly and
-publishing the resulting package to NPM.
+This is just a port of melody compiler by <a href="https://github.com/yoav-lavi">yoav-lavi</a>
+into web assembly using wasm-bindgen
 
 Be sure to check out [other `wasm-pack` tutorials online][tutorials] for other
 templates and usages of `wasm-pack`.
